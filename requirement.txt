@@ -1,0 +1,6 @@
+Python version -- 3.8.20
+pip install tensorflow
+pip install keras
+pip install matplotlib.pyplot
+pip install numpy
+'dataset link'-https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset
