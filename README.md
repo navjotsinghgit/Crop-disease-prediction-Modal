@@ -27,5 +27,19 @@ Includes a variety of crops and their most common diseases. Examples:
 - 🧠 TensorFlow / Keras
 - 🖼️ OpenCV (for image pre-processing)
 - 📊 Matplotlib (for plotting results)
-- ⚙️ NumPy 
+- ⚙️ NumPy
+- Django
+- the architecture of the directory is in the following format-
+- crop_detection_app/
+├── crop_model/            # Django app for ML model
+│   ├── views.py           # Handles HTML and API logic
+│   ├── urls.py            # Route config
+│   └── templates/         # HTML templates
+│       └── index.html     # UI for predictions
+├── crop_detection_app/    # Project settings
+│   ├── settings.py        # Connect MySQL here
+│   ├── urls.py
+├── manage.py
+├── Model.hdf5             # Your trained model
+└── Crop.ipynb             # Notebook reference
 
